@@ -48,7 +48,7 @@ sudo apt-get install jenkins
 - Security groups
 - Add inbound traffic rules as shown in the image (you can just allow TCP 8080 as well, in my case, I allowed `All traffic`).
 
-<img width="1187" alt="Screenshot 2023-02-01 at 12 42 01 PM" src="https://user-images.githubusercontent.com/43399466/215975712-2fc569cb-9d76-49b4-9345-d8b62187aa22.png">
+![Inbound](https://github.com/user-attachments/assets/8aab0822-cbd6-4a30-8f96-5d1c84d35be2)
 
 
 ### Login to Jenkins using the below URL:
@@ -73,11 +73,7 @@ Wait for the Jenkins to Install suggested plugins
 
 <img width="1291" alt="Screenshot 2023-02-01 at 10 59 31 AM" src="https://user-images.githubusercontent.com/43399466/215959398-344b5721-28ec-47a5-8908-b698e435608d.png">
 
-Create First Admin User or Skip the step [If you want to use this Jenkins instance for future use-cases as well, better to create admin user]
-
-<img width="990" alt="Screenshot 2023-02-01 at 11 02 09 AM" src="https://user-images.githubusercontent.com/43399466/215959757-403246c8-e739-4103-9265-6bdab418013e.png">
-
-Jenkins Installation is Successful. You can now starting using the Jenkins 
+Jenkins Installation is Successful. You can now play with jenkins
 
 <img width="990" alt="Screenshot 2023-02-01 at 11 14 13 AM" src="https://user-images.githubusercontent.com/43399466/215961440-3f13f82b-61a2-4117-88bc-0da265a67fa7.png">
 
@@ -89,9 +85,9 @@ Jenkins Installation is Successful. You can now starting using the Jenkins
    - Select the plugin and click the Install button.
    - Restart Jenkins after the plugin is installed.
    
-<img width="1392" alt="Screenshot 2023-02-01 at 12 17 02 PM" src="https://user-images.githubusercontent.com/43399466/215973898-7c366525-15db-4876-bd71-49522ecb267d.png">
+![image](https://github.com/user-attachments/assets/23c697f2-d3fb-44bc-b906-84f574cf7ee4)
 
-Wait for the Jenkins to be restarted.
+Restart Jenkins, always remember to restart jenkins as it is important to get the changes and updates done seamlessly.
 
 
 ## Docker Slave Configuration
@@ -112,7 +108,7 @@ usermod -aG docker ubuntu
 systemctl restart docker
 ```
 
-Once you are done with the above steps, it is better to restart Jenkins.
+Restart Jenkins as it is a better approach
 
 ```
 http://<ec2-instance-public-ip>:8080/restart
