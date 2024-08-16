@@ -6,7 +6,7 @@
 - Instances(running)
 - Launch instances
 
-![jenkinsinstance](https://github.com/user-attachments/assets/1f3d6b6c-efda-47b6-a12d-a9ab1a67085e)
+
 
 
 ### Install Jenkins.
@@ -48,7 +48,7 @@ sudo apt-get install jenkins
 - Security groups
 - Add inbound traffic rules as shown in the image (you can just allow TCP 8080 as well, in my case, I allowed `All traffic`).
 
-![Inbound](https://github.com/user-attachments/assets/8aab0822-cbd6-4a30-8f96-5d1c84d35be2)
+
 
 
 ### Login to Jenkins using the below URL:
@@ -85,7 +85,7 @@ Jenkins Installation is Successful. You can now play with jenkins
    - Select the plugin and click the Install button.
    - Restart Jenkins after the plugin is installed.
    
-![image](https://github.com/user-attachments/assets/23c697f2-d3fb-44bc-b906-84f574cf7ee4)
+![alt text](image.png)
 
 Restart Jenkins, always remember to restart jenkins as it is important to get the changes and updates done seamlessly.
 
