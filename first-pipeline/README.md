@@ -12,7 +12,6 @@
 - Click on three dots beside build to see how the pipeline is building, and that's it. Your pipeline has been build successfully
 
 ![alt text](image.png)
-![alt text](image.png)
 
 
 
